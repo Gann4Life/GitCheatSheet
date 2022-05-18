@@ -29,9 +29,11 @@
 
 ### Create repositories
 
-`git init` - Turn an existing directory into a git repository.
+> `$ git init`<br>
+> Turn an existing directory into a git repository.
 
-`git clone [url]` - Clone (download) a repository that already exists on GitHub, including all of the files, branches and commits.
+> `$ git clone [url]`<br>
+> Clone (download) a repository that already exists on GitHub, including all of the files, branches and commits.
 
 ### The .gitignore file
 
