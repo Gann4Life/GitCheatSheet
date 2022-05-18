@@ -19,6 +19,8 @@
 
 ### Branches
 
+Branches are an important part of working with Git. Any commits you make will be made on the branch you're currently "checked out" to. Use `git status` to see which branch that is.
+
 `git branch [branch-name]` - Creates a new branch.
 
 `git checkout [branch-name]` - Switches to the specified branch and updates the working directory.
