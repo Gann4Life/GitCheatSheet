@@ -1,6 +1,15 @@
-# Install
+# Git Cheat Sheet
 
-# Configure tooling
+"Git is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference."
+
+---
+
+### Install
+* [**GitHub for Windows**](https://windows.github.com)<br>
+* [**GitHub for Mac**](https://mac.github.com)<br>
+* [**Git for All Platforms**](https://git-scm.com)
+
+### Configure tooling
 
 `git config --global user.name "[name]"` - Sets the name you want attached to your commit transactions.
 
@@ -8,7 +17,7 @@
 
 `git config --global color.ui auto` - Enables helpful colorization of command line output.
 
-# Branches
+### Branches
 
 `git branch [branch-name]` - Creates a new branch.
 
@@ -18,19 +27,19 @@
 
 `git branch -d [branch-name]` - Delete the specified branch.
 
-# Create repositories
+### Create repositories
 
 `git init` - Turn an existing directory into a git repository.
 
 `git clone [url]` - Clone (download) a repository that already exists on GitHub, including all of the files, branches and commits.
 
-# The .gitignore file
+### The .gitignore file
 
 Sometimes it may be a good idea to exclude files from being tracked with Git. 
 This is typically done in a special file named `.gitignore`.
 You can find helpful templates for `.gitignore` files at github.com/github/gitignore
 
-# Synchronize changes
+### Synchronize changes
 
 `git fetch` - Downloads all history from the remote tracking branches.
 
@@ -43,8 +52,50 @@ and `git merge`.
 
 ---
 
-# Make changes
+### Make changes
 
-# Redo commits
+Browse and inspect the evolution of project files.
 
-# Glossary
+> `$ git log`<br>
+> Lists version history for the current branch.
+
+> `$ git log --follow [file]`<br>
+> Lists version history for a file, including renames.
+
+> `$ git diff [first-branch]...[second-branch]`<br>
+> Shows content differences between two branches.
+
+> `$ git show [commit]`<br>
+> Outputs metadata and content changes of the specified commit.
+
+> `$ git add [file]`<br>
+> Snapshots the file in preparation for versioning.
+
+> `$ git commit -m "[descriptive message]"`<br>
+> Records file snapshots permanently in version history.
+
+### Redo commits
+
+Erase mistakes and craft replacement history.
+
+> `$ git reset [commit]`<br>
+> Undoes all commits after [commit], preserving changes locally.
+
+> `$ git reset --hard [commit]`<br>
+> Discards all history and changes back to the specified commit.
+
+CAUTION! Changing history can have nasty side effects. If you need to change commits that exist on GitHub (the remote), proceed with caution. If you need help, reach out at github.community or contact support.
+
+---
+
+### Glossary
+
+**git**: <br>
+**GitHub**: <br>
+**commit**: <br>
+**branch**: <br>
+**clone**: <br>
+**remote**: <br>
+**fork**: <br>
+**pull request**: <br>
+**HEAD**: <br>
