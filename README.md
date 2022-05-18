@@ -4,12 +4,25 @@ Git is the open source distributed version control system that facilitates GitHu
 
 ---
 
-### Install
+## Index
+* <a href="#install">**Install**</a>
+* <a href="#create-repositories">**Create repositories**</a>
+* <a href="#configure-tooling">**Configure tooling**</a>
+* <a href="#gitignore">**The .gitignore file**</a>
+* <a href="#branches">**Branches**</a>
+* <a href="#synchronize-changes">**Synchronize changes**</a>
+* <a href="#make-changes">**Make changes**</a>
+* <a href="#redo-commits">**Redo commits**</a>
+
+---
+
+<h3 name="install">Install</h3>
+
 * [**GitHub for Windows**](https://windows.github.com)<br>
 * [**GitHub for Mac**](https://mac.github.com)<br>
 * [**Git for All Platforms**](https://git-scm.com)
 
-### Create repositories
+<h3 name="create-repositories">Create repositories</h3>
 
 When starting out with a new repository, you only need to do it once; either locally, then push to GitHub, or by cloning an existing repository.
 
@@ -19,7 +32,7 @@ When starting out with a new repository, you only need to do it once; either loc
 > `$ git clone [url]`<br>
 > Clone (download) a repository that already exists on GitHub, including all of the files, branches and commits.
 
-### Configure tooling
+<h3 name="configure-tooling">Configure tooling</h3>
 
 Configure user information for all local repositories.
 
@@ -32,11 +45,11 @@ Configure user information for all local repositories.
 > `$ git config --global color.ui auto`<br>
 > Enables helpful colorization of command line output.
 
-### The .gitignore file
+<h3 name="gitignore">The .gitignore file</h3>
 
 Sometimes it may be a good idea to exclude files from being tracked with Git. This is typically done in a special file named `.gitignore`. You can find helpful templates for `.gitignore` files at https://github.com/github/gitignore.
 
-### Branches
+<h3 name="branches">Branches</h3>
 
 Branches are an important part of working with Git. Any commits you make will be made on the branch you're currently "checked out" to. Use `git status` to see which branch that is.
 
@@ -52,7 +65,7 @@ Branches are an important part of working with Git. Any commits you make will be
 > `$ git branch -d [branch-name]`<br>
 > Delete the specified branch.
 
-### Synchronize changes
+<h3 name="synchronize-changes">Synchronize changes</h3>
 
 > `$ git fetch`<br>
 > Downloads all history from the remote tracking branches.
@@ -68,7 +81,7 @@ Branches are an important part of working with Git. Any commits you make will be
 
 ---
 
-### Make changes
+<h3 name="make-changes">Make changes</h3>
 
 Browse and inspect the evolution of project files.
 
@@ -90,7 +103,7 @@ Browse and inspect the evolution of project files.
 > `$ git commit -m "[descriptive message]"`<br>
 > Records file snapshots permanently in version history.
 
-### Redo commits
+<h3 name="redo-commits">Redo commits</h3>
 
 Erase mistakes and craft replacement history.
 
@@ -104,7 +117,7 @@ CAUTION! Changing history can have nasty side effects. If you need to change com
 
 ---
 
-### Glossary
+<h3 name="glossary">Glossary</h3>
 
 **git**: an open source, distributed version-control system.
 
