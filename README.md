@@ -4,7 +4,8 @@ Git is the open source distributed version control system that facilitates GitHu
 
 ---
 
-## Index
+<h3 name="index">Index</h3>
+
 * <a href="#install">**Install**</a>
 * <a href="#create-repositories">**Create repositories**</a>
 * <a href="#configure-tooling">**Configure tooling**</a>
