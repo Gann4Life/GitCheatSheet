@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-"Git is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference."
+Git is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference.
 
 ---
 
@@ -8,6 +8,16 @@
 * [**GitHub for Windows**](https://windows.github.com)<br>
 * [**GitHub for Mac**](https://mac.github.com)<br>
 * [**Git for All Platforms**](https://git-scm.com)
+
+### Create repositories
+
+When starting out with a new repository, you only need to do it once; either locally, then push to GitHub, or by cloning an existing repository.
+
+> `$ git init`<br>
+> Turn an existing directory into a git repository.
+
+> `$ git clone [url]`<br>
+> Clone (download) a repository that already exists on GitHub, including all of the files, branches and commits.
 
 ### Configure tooling
 
@@ -21,6 +31,10 @@ Configure user information for all local repositories.
 
 > `$ git config --global color.ui auto`<br>
 > Enables helpful colorization of command line output.
+
+### The .gitignore file
+
+Sometimes it may be a good idea to exclude files from being tracked with Git. This is typically done in a special file named `.gitignore`. You can find helpful templates for `.gitignore` files at https://github.com/github/gitignore.
 
 ### Branches
 
@@ -37,22 +51,6 @@ Branches are an important part of working with Git. Any commits you make will be
 
 > `$ git branch -d [branch-name]`<br>
 > Delete the specified branch.
-
-### Create repositories
-
-When starting out with a new repository, you only need to do it once; either locally, then push to GitHub, or by cloning an existing repository.
-
-> `$ git init`<br>
-> Turn an existing directory into a git repository.
-
-> `$ git clone [url]`<br>
-> Clone (download) a repository that already exists on GitHub, including all of the files, branches and commits.
-
-### The .gitignore file
-
-Sometimes it may be a good idea to exclude files from being tracked with Git. 
-This is typically done in a special file named `.gitignore`.
-You can find helpful templates for `.gitignore` files at github.com/github/gitignore
 
 ### Synchronize changes
 
