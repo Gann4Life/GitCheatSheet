@@ -29,6 +29,8 @@
 
 ### Create repositories
 
+When starting out with a new repository, you only need to do it once; either locally, then push to GitHub, or by cloning an existing repository.
+
 > `$ git init`<br>
 > Turn an existing directory into a git repository.
 
