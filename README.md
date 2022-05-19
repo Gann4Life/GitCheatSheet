@@ -6,14 +6,21 @@ Git is the open source distributed version control system that facilitates GitHu
 
 <h3 name="index">Index</h3>
 
-* [**Install**](#install)
-* [**Create repositories**](#create-repositories)
-* [**Configure tooling**](#configure-tooling)
-* [**The .gitignore file**](#gitignore)
-* [Branches**](#branches)
-* [**Synchronize changes**](#synchronize-changes)
-* [**Make changes**](#make-changes)
-* [**Redo commits**](#redo-commits)
+[![Button](https://shields.io/badge/Go%20to-Install-black?style=flat)](#install)
+
+[![Button](https://shields.io/badge/Go%20to-Create%20repositories-black?style=flat)](#create-repositories)
+
+[![Button](https://shields.io/badge/Go%20to-Configure%20tooling-black?style=flat)](#configure-tooling)
+
+[![Button](https://shields.io/badge/Go%20to-The%20.gitignore%20file-black?style=flat)](#gitignore)
+
+[![Button](https://shields.io/badge/Go%20to-Branches-black?style=flat)](#branches)
+
+[![Button](https://shields.io/badge/Go%20to-Synchronize%20changes-black?style=flat)](#synchronize-changes)
+
+[![Button](https://shields.io/badge/Go%20to-Make%20changes-black?style=flat)](#make-changes)
+
+[![Button](https://shields.io/badge/Go%20to-Redo%20changes-black?style=flat)](#redo-changes)
 
 ---
 
@@ -22,6 +29,8 @@ Git is the open source distributed version control system that facilitates GitHu
 * [**GitHub for Windows**](https://windows.github.com)<br>
 * [**GitHub for Mac**](https://mac.github.com)<br>
 * [**Git for All Platforms**](https://git-scm.com)
+
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
 
 <h3 name="create-repositories">Create repositories</h3>
 
@@ -32,6 +41,8 @@ When starting out with a new repository, you only need to do it once; either loc
 
 > `$ git clone [url]`<br>
 > Clone (download) a repository that already exists on GitHub, including all of the files, branches and commits.
+
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
 
 <h3 name="configure-tooling">Configure tooling</h3>
 
@@ -46,9 +57,13 @@ Configure user information for all local repositories.
 > `$ git config --global color.ui auto`<br>
 > Enables helpful colorization of command line output.
 
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
+
 <h3 name="gitignore">The .gitignore file</h3>
 
 Sometimes it may be a good idea to exclude files from being tracked with Git. This is typically done in a special file named `.gitignore`. You can find helpful templates for `.gitignore` files at https://github.com/github/gitignore.
+
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
 
 <h3 name="branches">Branches</h3>
 
@@ -66,6 +81,8 @@ Branches are an important part of working with Git. Any commits you make will be
 > `$ git branch -d [branch-name]`<br>
 > Delete the specified branch.
 
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
+
 <h3 name="synchronize-changes">Synchronize changes</h3>
 
 > `$ git fetch`<br>
@@ -79,6 +96,8 @@ Branches are an important part of working with Git. Any commits you make will be
 
 > `$ git pull`<br>
 > Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. `git pull` is a combination of `git fetch` and `git merge`.
+
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
 
 ---
 
@@ -104,6 +123,8 @@ Browse and inspect the evolution of project files.
 > `$ git commit -m "[descriptive message]"`<br>
 > Records file snapshots permanently in version history.
 
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
+
 <h3 name="redo-commits">Redo commits</h3>
 
 Erase mistakes and craft replacement history.
@@ -115,6 +136,8 @@ Erase mistakes and craft replacement history.
 > Discards all history and changes back to the specified commit.
 
 CAUTION! Changing history can have nasty side effects. If you need to change commits that exist on GitHub (the remote), proceed with caution. If you need help, reach out at github.community or contact support.
+
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
 
 ---
 
@@ -138,3 +161,4 @@ CAUTION! Changing history can have nasty side effects. If you need to change com
 
 **HEAD**: representing your current working directory, the HEAD pointer can be moved to different branches, tags or commits when using `git checkout`.
 
+[![Button](https://shields.io/badge/Go%20to-Index-black?style=flat)](#index)
