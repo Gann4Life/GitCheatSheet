@@ -6,14 +6,14 @@ Git is the open source distributed version control system that facilitates GitHu
 
 <h3 name="index">Index</h3>
 
-* <a href="#install">**Install**</a>
-* <a href="#create-repositories">**Create repositories**</a>
-* <a href="#configure-tooling">**Configure tooling**</a>
-* <a href="#gitignore">**The .gitignore file**</a>
-* <a href="#branches">**Branches**</a>
-* <a href="#synchronize-changes">**Synchronize changes**</a>
-* <a href="#make-changes">**Make changes**</a>
-* <a href="#redo-commits">**Redo commits**</a>
+* [**Install**](#install)
+* [**Create repositories**](#create-repositories)
+* [**Configure tooling**](#configure-tooling)
+* [**The .gitignore file**](#gitignore)
+* [Branches**](#branches)
+* [**Synchronize changes**](#synchronize-changes)
+* [**Make changes**](#make-changes)
+* [**Redo commits**](#redo-commits)
 
 ---
 
